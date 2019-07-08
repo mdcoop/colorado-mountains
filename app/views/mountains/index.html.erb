@@ -1,1 +1,11 @@
-<h1>Mountains of Colorado</h1>
+<h1>Colorado Mountains</h1>
+
+<% @mountains.each do |place| %>
+  <div>
+    <h1><%= mountain.name %></h1><br />
+    <i><%= mountain.elevation %></i><br />
+    <p><%= mountain.description %></p><br />
+  </div>
+
+  <hr />
+<% end %>
