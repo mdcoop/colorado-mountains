@@ -1,7 +1,5 @@
-<% @mountains.each do |place| %>
-  <div class="booyah-box col-10 offset-1">
+<% @mountains.each do |mountain| %>
     <h1><%= mountain.name %></h1>
-    <i><%= mountain.elevation %></i><br /><br />
-    <p><%= mountain.description %></p><br />
-  </div>
+    <h1><%= mountain.elevation %></h1>
+    <h1><%= mountain.description %></h1>
 <% end %>
